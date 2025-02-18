@@ -1,31 +1,30 @@
 # SkyPark
 A simple 3d Platformer game. A skyWars themed park with hidden treasures, and plot twists ...
 
-Want to try it out ?
-- Click the link in the about section of this repository. Have fun :)
 
 🎮 **Game Controls Guide**
 
-🕹️ Movement Controls
 
-- W	Move Forward (^)
+  🕹️ Movement Controls
 
-- A	Move Left(<)
+  - W	Move Forward (^)
 
-- S	Move Backward(v)
+  - A	Move Left(<)
 
-- D	Move Right(>)
+  - S	Move Backward(v)
 
-🦘 Jumping & Direction
+  - D	Move Right(>)
 
-- Spacebar	Jump
-- Mouse Movement	Look Around / Change Direction
+  🦘 Jumping & Direction
 
-🔄 Game Management
+  - Spacebar	Jump
+  - Mouse Movement	Look Around / Change Direction
 
-- R	Restart Game
+  🔄 Game Management
 
-- Q	Quit Game
+  - R	Restart Game
+
+  - Q	Quit Game
 
 🎯 Pro Tip: Use smooth mouse movements for better camera control!
 🔥 Now get out there and start exploring!
