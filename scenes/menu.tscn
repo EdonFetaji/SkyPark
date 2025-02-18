@@ -1,0 +1,109 @@
+[gd_scene load_steps=8 format=3 uid="uid://dftixiafr7jxl"]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_uw4ua"]
+[ext_resource type="Texture2D" uid="uid://cdx06edspqjmk" path="res://ui/PNG/menu/bg.png" id="1_wfrkq"]
+[ext_resource type="Texture2D" uid="uid://cpddxq3d8ic7i" path="res://ui/PNG/match3/down.png" id="2_mpmsm"]
+[ext_resource type="Texture2D" uid="uid://dwa4irr4xnebn" path="res://ui/PNG/menu/play.png" id="3_d1vhq"]
+[ext_resource type="FontFile" uid="uid://yxfru6cu5j8y" path="res://resources/PottaOne-Regular.ttf" id="5_ykguu"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xej5f"]
+font = ExtResource("5_ykguu")
+font_size = 69
+font_color = Color(0.439604, 0.503009, 0.480719, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8oe2m"]
+bg_color = Color(0.211765, 0.211765, 0.211765, 0.803922)
+corner_radius_top_left = 45
+corner_radius_top_right = 45
+corner_radius_bottom_right = 45
+corner_radius_bottom_left = 45
+
+[node name="Control" type="Control"]
+clip_contents = true
+layout_mode = 3
+anchor_right = 1.111
+anchor_bottom = 1.111
+offset_right = -127.872
+offset_bottom = -79.928
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uw4ua")
+
+[node name="Bg" type="Sprite2D" parent="."]
+position = Vector2(618, 547)
+texture = ExtResource("1_wfrkq")
+
+[node name="Down" type="Sprite2D" parent="."]
+position = Vector2(571, 643)
+scale = Vector2(0.779297, 0.890135)
+texture = ExtResource("2_mpmsm")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 133.0
+offset_right = 981.0
+offset_bottom = 234.0
+text = "Welcome to SkyPark!"
+label_settings = SubResource("LabelSettings_xej5f")
+
+[node name="EasyMode" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 671.0
+offset_top = 363.0
+offset_right = 1064.0
+offset_bottom = 479.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_8oe2m")
+
+[node name="Play" type="Sprite2D" parent="EasyMode"]
+z_index = 1
+position = Vector2(66.5, 58.8916)
+scale = Vector2(0.162651, 0.164434)
+texture = ExtResource("3_d1vhq")
+
+[node name="play_btn" type="Button" parent="EasyMode"]
+z_index = 1
+layout_mode = 0
+offset_left = 14.0
+offset_top = 8.0
+offset_right = 373.0
+offset_bottom = 106.0
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("5_ykguu")
+theme_override_font_sizes/font_size = 35
+action_mode = 0
+text = "Easy Mode "
+flat = true
+alignment = 2
+
+[node name="HardMode" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 367.0
+offset_right = 483.0
+offset_bottom = 483.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_8oe2m")
+
+[node name="Play" type="Sprite2D" parent="HardMode"]
+z_index = 1
+position = Vector2(66.5, 58.8916)
+scale = Vector2(0.162651, 0.164434)
+texture = ExtResource("3_d1vhq")
+
+[node name="play_hard_btn" type="Button" parent="HardMode"]
+z_index = 1
+layout_mode = 0
+offset_left = 14.0
+offset_top = 8.0
+offset_right = 373.0
+offset_bottom = 106.0
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("5_ykguu")
+theme_override_font_sizes/font_size = 35
+action_mode = 0
+text = "Hard Mode "
+flat = true
+alignment = 2
+
+[connection signal="pressed" from="EasyMode/play_btn" to="." method="_on_play_btn_pressed"]
+[connection signal="pressed" from="HardMode/play_hard_btn" to="." method="_on_play_hard_btn_pressed"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvqjchpq8bviy"
+path="res://.godot/imported/explosion.mp3-fec26f242f15314b130c577806a7682a.mp3str"
+
+[deps]
+
+source_file="res://assets/WorldModels/OBJ format/explosion.mp3"
+dest_files=["res://.godot/imported/explosion.mp3-fec26f242f15314b130c577806a7682a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

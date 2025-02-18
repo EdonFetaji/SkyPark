@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfjaxg0s33qfk"
+path="res://.godot/imported/block-snow-large-tall.obj-594d597c733b8c8ca8cc0015f3ecb842.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-snow-large-tall.obj-594d597c733b8c8ca8cc0015f3ecb842.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/block-snow-large-tall.obj"
+dest_files=["res://.godot/imported/block-snow-large-tall.obj-594d597c733b8c8ca8cc0015f3ecb842.mesh", "res://.godot/imported/block-snow-large-tall.obj-594d597c733b8c8ca8cc0015f3ecb842.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

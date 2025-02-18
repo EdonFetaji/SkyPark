@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://esugi4vtws2y"
+path="res://.godot/imported/block-grass-overhang-low-hexagon.obj-995569baa13a156dfb1b24405b857d96.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-grass-overhang-low-hexagon.obj-995569baa13a156dfb1b24405b857d96.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/block-grass-overhang-low-hexagon.obj"
+dest_files=["res://.godot/imported/block-grass-overhang-low-hexagon.obj-995569baa13a156dfb1b24405b857d96.mesh", "res://.godot/imported/block-grass-overhang-low-hexagon.obj-995569baa13a156dfb1b24405b857d96.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

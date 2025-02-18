@@ -1,0 +1,121 @@
+[gd_scene load_steps=7 format=3 uid="uid://b6lrrmepy01e5"]
+
+[ext_resource type="Texture2D" uid="uid://cucg0w3wanknj" path="res://resources/MonkeyCoinIcon.png" id="1_onhuu"]
+[ext_resource type="FontFile" uid="uid://gu6igu3lstqk" path="res://resources/FrancoisOne-Regular.ttf" id="2_uclor"]
+[ext_resource type="Texture2D" uid="uid://b4a84qha125q5" path="res://ui/PNG/bubble/clock.png" id="3_lymeu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m6t5o"]
+bg_color = Color(0, 0, 0, 0.380392)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.609913, 0.447402, 0.227234, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_28ma3"]
+bg_color = Color(0, 0, 0, 0.380392)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 1, 1, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lsjx0"]
+bg_color = Color(0, 0, 0, 0.380392)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.897646, 0, 0.217263, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Coins" type="Panel" parent="."]
+offset_left = 58.0
+offset_top = 48.0
+offset_right = 222.0
+offset_bottom = 98.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_m6t5o")
+
+[node name="MonkeyCoinIcon" type="Sprite2D" parent="Coins"]
+position = Vector2(36, 23)
+scale = Vector2(0.2175, 0.2175)
+texture = ExtResource("1_onhuu")
+
+[node name="Label" type="Label" parent="Coins"]
+layout_mode = 0
+offset_left = 75.0
+offset_top = -4.0
+offset_right = 115.0
+offset_bottom = 47.0
+theme_override_colors/font_color = Color(0.9, 0.80265, 0.369, 1)
+theme_override_fonts/font = ExtResource("2_uclor")
+theme_override_font_sizes/font_size = 35
+text = "x"
+
+[node name="CoinsLabel" type="Label" parent="Coins"]
+layout_mode = 0
+offset_left = 113.0
+offset_top = -1.0
+offset_right = 158.0
+offset_bottom = 50.0
+theme_override_colors/font_color = Color(0.901961, 0.803922, 0.368627, 1)
+theme_override_fonts/font = ExtResource("2_uclor")
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Time" type="Panel" parent="."]
+offset_left = 906.0
+offset_top = 50.0
+offset_right = 1070.0
+offset_bottom = 100.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_28ma3")
+
+[node name="TimeLabel" type="Label" parent="Time"]
+layout_mode = 0
+offset_left = 60.0
+offset_top = -2.0
+offset_right = 143.0
+offset_bottom = 49.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uclor")
+theme_override_font_sizes/font_size = 35
+text = "00:10"
+
+[node name="Clock" type="Sprite2D" parent="Time"]
+position = Vector2(32.0001, 24)
+scale = Vector2(0.353658, 0.353658)
+texture = ExtResource("3_lymeu")
+
+[node name="Health" type="Panel" parent="."]
+offset_left = 49.0
+offset_top = 543.0
+offset_right = 252.0
+offset_bottom = 593.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_lsjx0")
+
+[node name="HealthBar" type="Label" parent="Health"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 10.0
+offset_right = 175.0
+offset_bottom = 61.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uclor")
+theme_override_font_sizes/font_size = 35
+text = "♥️♥️🖤"

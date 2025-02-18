@@ -1,0 +1,86 @@
+[gd_scene load_steps=9 format=3 uid="uid://c3y62a6rco7gi"]
+
+[ext_resource type="Texture2D" uid="uid://cdx06edspqjmk" path="res://ui/PNG/menu/bg.png" id="1_6bj0h"]
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_50nad"]
+[ext_resource type="Texture2D" uid="uid://cdojy5adqsjmj" path="res://ui/PNG/you_win/bg.png" id="2_tvp8c"]
+[ext_resource type="Texture2D" uid="uid://1mon31vwy854" path="res://ui/PNG/you_win/table.png" id="3_yc5f8"]
+[ext_resource type="Texture2D" uid="uid://hd5iumqykyl5" path="res://ui/PNG/you_win/header.png" id="4_mnjqj"]
+[ext_resource type="Texture2D" uid="uid://bnwitsu6jh4j2" path="res://ui/PNG/you_win/star_1.png" id="5_klo4s"]
+[ext_resource type="Texture2D" uid="uid://cd0ul06ga0o00" path="res://ui/PNG/btn/restart.png" id="6_day6h"]
+[ext_resource type="Texture2D" uid="uid://bangvuhtjotce" path="res://ui/PNG/btn/close.png" id="7_lpo5p"]
+
+[node name="Control" type="Control"]
+clip_contents = true
+layout_direction = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_50nad")
+
+[node name="Bg" type="Sprite2D" parent="."]
+position = Vector2(433, 452)
+texture = ExtResource("1_6bj0h")
+
+[node name="board" type="Sprite2D" parent="."]
+position = Vector2(570, 337)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_tvp8c")
+
+[node name="Table" type="Sprite2D" parent="."]
+position = Vector2(569, 328)
+scale = Vector2(0.477, 0.4)
+texture = ExtResource("3_yc5f8")
+
+[node name="Header" type="Sprite2D" parent="."]
+position = Vector2(571, 161)
+scale = Vector2(0.39332, 0.431818)
+texture = ExtResource("4_mnjqj")
+
+[node name="Star1" type="Sprite2D" parent="."]
+position = Vector2(572, 352)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_klo4s")
+
+[node name="Restart" type="Sprite2D" parent="."]
+position = Vector2(468, 568)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_day6h")
+
+[node name="Close" type="Sprite2D" parent="."]
+position = Vector2(662, 564)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("7_lpo5p")
+
+[node name="close_btn" type="Button" parent="."]
+layout_direction = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 624.0
+offset_top = 528.0
+offset_right = -346.0
+offset_bottom = 99.0
+rotation = -0.031235
+scale = Vector2(0.400293, 0.329078)
+toggle_mode = true
+flat = true
+vertical_icon_alignment = 0
+text_direction = 1
+
+[node name="replay_btn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 530.0
+offset_right = 504.0
+offset_bottom = 602.0
+flat = true
+clip_text = true
+expand_icon = true
+
+[connection signal="pressed" from="close_btn" to="." method="_on_close_btn_pressed"]
+[connection signal="pressed" from="replay_btn" to="." method="_on_replay_btn_pressed"]

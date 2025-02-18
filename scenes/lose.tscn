@@ -1,0 +1,82 @@
+[gd_scene load_steps=9 format=3 uid="uid://chq7b26yb4hbn"]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_88nft"]
+[ext_resource type="Texture2D" uid="uid://cdx06edspqjmk" path="res://ui/PNG/menu/bg.png" id="1_ebwc5"]
+[ext_resource type="Texture2D" uid="uid://cdojy5adqsjmj" path="res://ui/PNG/you_win/bg.png" id="2_ndkgm"]
+[ext_resource type="Texture2D" uid="uid://1mon31vwy854" path="res://ui/PNG/you_win/table.png" id="3_0rmwf"]
+[ext_resource type="Texture2D" uid="uid://cd0ul06ga0o00" path="res://ui/PNG/btn/restart.png" id="4_1fdgd"]
+[ext_resource type="Texture2D" uid="uid://bangvuhtjotce" path="res://ui/PNG/btn/close.png" id="5_dv288"]
+[ext_resource type="Texture2D" uid="uid://cx1snu2cr0w06" path="res://ui/PNG/you_lose/header.png" id="6_jy3ay"]
+[ext_resource type="Texture2D" uid="uid://bmqnvjit6e5hc" path="res://ui/PNG/you_lose/star_4.png" id="7_tof8n"]
+
+[node name="Control" type="Control"]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_88nft")
+
+[node name="Bg" type="Sprite2D" parent="."]
+position = Vector2(433, 452)
+texture = ExtResource("1_ebwc5")
+
+[node name="board" type="Sprite2D" parent="."]
+position = Vector2(560, 327.875)
+scale = Vector2(0.491701, 0.475483)
+texture = ExtResource("2_ndkgm")
+
+[node name="Table" type="Sprite2D" parent="."]
+position = Vector2(563, 303)
+scale = Vector2(0.477, 0.4)
+texture = ExtResource("3_0rmwf")
+
+[node name="Restart" type="Sprite2D" parent="."]
+position = Vector2(462, 543)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_1fdgd")
+
+[node name="Close" type="Sprite2D" parent="."]
+position = Vector2(656, 539)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("5_dv288")
+
+[node name="Header" type="Sprite2D" parent="."]
+position = Vector2(561, 136)
+scale = Vector2(0.393, 0.432)
+texture = ExtResource("6_jy3ay")
+
+[node name="Star4" type="Sprite2D" parent="."]
+position = Vector2(559, 318)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_tof8n")
+
+[node name="replay_btn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 426.0
+offset_top = 505.0
+offset_right = 498.0
+offset_bottom = 577.0
+flat = true
+
+[node name="close_btn" type="Button" parent="."]
+layout_direction = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 619.0
+offset_top = 503.0
+offset_right = -350.0
+offset_bottom = 77.0001
+rotation = -0.031235
+scale = Vector2(0.400293, 0.329078)
+toggle_mode = true
+flat = true
+vertical_icon_alignment = 0
+text_direction = 1
+
+[connection signal="pressed" from="replay_btn" to="." method="_on_replay_btn_pressed"]
+[connection signal="pressed" from="close_btn" to="." method="_on_close_btn_pressed"]

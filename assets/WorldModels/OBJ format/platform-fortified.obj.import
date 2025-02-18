@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drrfyrt4eyg4j"
+path="res://.godot/imported/platform-fortified.obj-fa939a491cb063f541e64f2667ef6f06.mesh"
+
+[deps]
+
+files=["res://.godot/imported/platform-fortified.obj-fa939a491cb063f541e64f2667ef6f06.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/platform-fortified.obj"
+dest_files=["res://.godot/imported/platform-fortified.obj-fa939a491cb063f541e64f2667ef6f06.mesh", "res://.godot/imported/platform-fortified.obj-fa939a491cb063f541e64f2667ef6f06.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

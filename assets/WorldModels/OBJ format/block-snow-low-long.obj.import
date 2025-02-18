@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8un0oi6ih2hq"
+path="res://.godot/imported/block-snow-low-long.obj-43993313de22de3814d2e08fe0dfa6ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-snow-low-long.obj-43993313de22de3814d2e08fe0dfa6ab.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/block-snow-low-long.obj"
+dest_files=["res://.godot/imported/block-snow-low-long.obj-43993313de22de3814d2e08fe0dfa6ab.mesh", "res://.godot/imported/block-snow-low-long.obj-43993313de22de3814d2e08fe0dfa6ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

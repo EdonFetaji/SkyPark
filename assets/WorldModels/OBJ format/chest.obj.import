@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt8nku5k3i65p"
+path="res://.godot/imported/chest.obj-ae23f261764cac56f4e2669316bc690d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chest.obj-ae23f261764cac56f4e2669316bc690d.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/chest.obj"
+dest_files=["res://.godot/imported/chest.obj-ae23f261764cac56f4e2669316bc690d.mesh", "res://.godot/imported/chest.obj-ae23f261764cac56f4e2669316bc690d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

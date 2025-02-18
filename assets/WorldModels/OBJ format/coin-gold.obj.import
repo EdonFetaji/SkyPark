@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbjp3p1ss2w18"
+path="res://.godot/imported/coin-gold.obj-a31081f3c4da15eaa36c586d0134a842.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coin-gold.obj-a31081f3c4da15eaa36c586d0134a842.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/coin-gold.obj"
+dest_files=["res://.godot/imported/coin-gold.obj-a31081f3c4da15eaa36c586d0134a842.mesh", "res://.godot/imported/coin-gold.obj-a31081f3c4da15eaa36c586d0134a842.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

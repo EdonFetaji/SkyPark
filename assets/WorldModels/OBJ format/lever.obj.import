@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqon1svunq4go"
+path="res://.godot/imported/lever.obj-78418e830e316f986a8581e66ececece.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lever.obj-78418e830e316f986a8581e66ececece.mesh"]
+
+source_file="res://assets/WorldModels/OBJ format/lever.obj"
+dest_files=["res://.godot/imported/lever.obj-78418e830e316f986a8581e66ececece.mesh", "res://.godot/imported/lever.obj-78418e830e316f986a8581e66ececece.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://drw2c5dj4uvxq"]
+
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_t7ujj"]
+transparency = 1
+depth_draw_mode = 1
+vertex_color_use_as_albedo = true
+vertex_color_is_srgb = true
+albedo_color = Color(0.307192, 0.363653, 0.833432, 0.831373)
+
+[sub_resource type="BoxMesh" id="BoxMesh_sccq4"]
+material = SubResource("ORMMaterial3D_t7ujj")
+size = Vector3(0.2, 0.8, 0.7)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_bgeas"]
+points = PackedVector3Array(0.1, 0.4, 0.349932, -0.1, 0.4, 0.349932, 0.1, -0.4, 0.349932, 0.1, 0.4, -0.35, -0.1, 0.4, -0.35, -0.1, -0.4, 0.349932, 0.1, -0.4, -0.35, -0.1, -0.4, -0.35)
+
+[node name="portal" type="Area3D"]
+collision_layer = 4
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.168272, 0.350503, 0.0171862)
+mesh = SubResource("BoxMesh_sccq4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.168272, 0.350503, 0.0171862)
+shape = SubResource("ConvexPolygonShape3D_bgeas")

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6mlke6dl6pdj"]
+
+[ext_resource type="Script" path="res://scripts/check_point.gd" id="1_fxenk"]
+[ext_resource type="ArrayMesh" uid="uid://bx5d7qbmww3or" path="res://assets/WorldModels/OBJ format/flag.obj" id="2_oflsk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j1bob"]
+size = Vector3(4.88501, 1.1311, 3.4751)
+
+[node name="Check_Point" type="Area3D"]
+collision_layer = 8
+script = ExtResource("1_fxenk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_oflsk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_j1bob")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
