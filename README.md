@@ -7,13 +7,13 @@ A simple 3d Platformer game. A skyWars themed park with hidden treasures, and pl
 
   🕹️ Movement Controls
 
-  - W	Move Forward (^)
+  - W	Move Forward  (^)
 
-  - A	Move Left(<)
+  - A	Move Left  (<)
 
-  - S	Move Backward(v)
+  - S	Move Backward  (v)
 
-  - D	Move Right(>)
+  - D	Move Right  (>)
 
   🦘 Jumping & Direction
 
