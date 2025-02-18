@@ -7,22 +7,25 @@ Want to try it out ?
 🎮 Game Controls Guide
 
 🕹️ Movement Controls
-W	Move Forward (^)
 
-A	Move Left(<)
+- W	Move Forward (^)
 
-S	Move Backward(v)
+- A	Move Left(<)
 
-D	Move Right(>)
+- S	Move Backward(v)
+
+- D	Move Right(>)
 
 🦘 Jumping & Direction
-Key	Action
-Spacebar	Jump
-Mouse Movement	Look Around / Change Direction
+
+- Spacebar	Jump
+- Mouse Movement	Look Around / Change Direction
+
 🔄 Game Management
-Key	Action
-R	Restart Game
-Q	Quit Game
+
+- R	Restart Game
+
+- Q	Quit Game
 
 🎯 Pro Tip: Use smooth mouse movements for better camera control!
 🔥 Now get out there and start exploring!
