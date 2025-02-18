@@ -5,6 +5,8 @@ A simple 3d Platformer game. A skyWars themed park with hidden treasures, and pl
 🎮 **Game Controls Guide**
 
 
+
+
   🕹️ Movement Controls
 
   - W	Move Forward  (^)
