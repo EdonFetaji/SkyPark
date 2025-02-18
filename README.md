@@ -6,13 +6,15 @@ Want to try it out ?
 
 🎮 Game Controls Guide
 
-🚀 Master the controls and explore the world with ease!
 🕹️ Movement Controls
-Key	Action
-W	Move Forward
-A	Move Left
-S	Move Backward
-D	Move Right
+W	Move Forward (^)
+
+A	Move Left(<)
+
+S	Move Backward(v)
+
+D	Move Right(>)
+
 🦘 Jumping & Direction
 Key	Action
 Spacebar	Jump
