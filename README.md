@@ -30,4 +30,4 @@ A development documentation can be found in the repository files. Or [here](http
   - Q	- Quit Game
 
 🎯 Want to try it out ?
-- Click the link in the about section of this repository. Have fun :)
+- Click [here](edonfetaji.itch.io/skypark). Have fun :)
