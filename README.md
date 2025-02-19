@@ -1,5 +1,6 @@
 # SkyPark
 A simple 3d Platformer game. A skyWars themed park with hidden treasures, and plot twists ...
+🎯 You can play it [here](edonfetaji.itch.io/skypark). Have fun :).
 
 A development documentation can be found in the repository files. Or [here](https://github.com/EdonFetaji/SkyPark/blob/main/Skypark%20Development%20Documentation.pdf)
 
@@ -35,5 +36,4 @@ Interested to see some in-game action. Have a look at some [gameplay](https://dr
 
   - Q	- Quit Game
 
-🎯 Want to try it out ?
-- Click [here](edonfetaji.itch.io/skypark). Have fun :)
+
