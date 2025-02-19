@@ -5,6 +5,8 @@ A development documentation can be found in the repository files. Or [here](http
 
 See game screen shots [here](https://drive.google.com/drive/folders/1FydvntJ07X_0qQkNGk-hDQ4-UQjizh6q?usp=sharing)
 
+Interested to see some in-game action. Have a look at some [gameplay](https://drive.google.com/file/d/1ZRdR0M5jd6hyuMZw8Nuq8__YtkIVNNOm/view?usp=sharing). 
+
 #
 
 🎮 **Game Controls Guide**
